@@ -1,0 +1,19 @@
+{
+  "name": "opencode-adaptive-framework",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Framework adaptativo opcional y local al proyecto para OpenCode v2",
+  "type": "commonjs",
+  "bin": {
+    "opencode-adaptive-framework": "./bin/framework.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.3.1"
+  }
+}
